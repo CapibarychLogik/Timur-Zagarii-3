@@ -1,0 +1,41 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 40px;
+    color: lightblue;
+}
+
+nav {
+    display: flex;
+    justify-content: flex-end;
+    border-bottom: 1px dashed navy;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    color: royalblue;
+    margin: 30px;
+    display: flex;
+}
+
+.gallery {
+    display: flex;
+    width: 70%;
+    flex-wrap: wrap;
+}
+.container{
+    display: flex;
+}
+
+.text{
+    width: 300px;
+    float: left;
+}
